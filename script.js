@@ -9,7 +9,7 @@ const divide = (arr, n) => {
 
 	  let j = i;
 	  while (j<arr.length && sum <= n) {
-	  	curr.push(arr[i]);
+	  	curr.push(arr[j]);
 		  j++;
 	  }
 
